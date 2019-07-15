@@ -1,22 +1,12 @@
-var i = 0
-var x = 0
-var s = 0
+var h = 0
+var m = 0
 
-function clock(){
-  s++;
-  if(s==60){
-    s=0;
+while(h <= 23) {
+  console.log(h);
+  while(j<=59){
+    console.log(j);
+    j++;
   }
-}
-
-while (i <= 23) {
-  console.log(i);
-  if (x=59){
-    i++;
-  }
-} while (x <= 59) {
-  console.log(x);
-  if (s=60){
-    x++;
-  }
+  h++;
+  m=0;
 }
