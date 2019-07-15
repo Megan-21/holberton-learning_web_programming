@@ -1,5 +1,6 @@
 var i = 0
 var x = 0
+var s = 0
 
 function clock(){
   s++;
@@ -17,5 +18,5 @@ function clock(){
 while (i <= 23) {
   console.log(i);
 } while (x <= 59) {
-
+  console.log(x);
 }
